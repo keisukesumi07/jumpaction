@@ -193,6 +193,7 @@ public class GameScreen extends ScreenAdapter {
                 Enemy enemy = new Enemy(etype,enemyTexture, 0, 0, 128, 64);
                 enemy.setPosition(step.getX() + mRandom.nextFloat(), step.getY() + Enemy.Enemy_HEIGHT + mRandom.nextFloat() * 3);
                 mEnemy.add(enemy);
+                
             }
 
             y += (maxJumpHeight - 0.5f);
